@@ -432,7 +432,7 @@
     // },
     // 
      {
-       "packageName": "core",
+       "packageName": "@dziamid/demo-core",
        "projectFolder": "core",
        "reviewCategory": "production",
        "shouldPublish": true
