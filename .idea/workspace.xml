@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4bc82f-8a69-4be8-a9e8-59e1b19feb06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rush.json" beforeDir="false" afterPath="$PROJECT_DIR$/rush.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
       <updated>1608717889596</updated>
       <workItem from="1608717890806" duration="430000" />
       <workItem from="1608723154284" duration="2508000" />
+      <workItem from="1608745818891" duration="343000" />
     </task>
     <servers />
   </component>
@@ -61,6 +62,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

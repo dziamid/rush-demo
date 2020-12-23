@@ -431,10 +431,11 @@
     //   "reviewCategory": "production"
     // },
     // 
-    // {
-    //   "packageName": "my-toolchain",
-    //   "projectFolder": "tools/my-toolchain",
-    //   "reviewCategory": "tools"
-    // }
+     {
+       "packageName": "core",
+       "projectFolder": "core",
+       "reviewCategory": "production",
+       "shouldPublish": true
+     }
   ]
 }
