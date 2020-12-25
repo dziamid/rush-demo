@@ -1,0 +1,17 @@
+{
+  "name": "@dziamid/demo-core",
+  "entries": [
+    {
+      "version": "2.0.0",
+      "tag": "@dziamid/demo-core_v2.0.0",
+      "date": "Fri, 25 Dec 2020 15:35:02 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Ported project files from lerna"
+          }
+        ]
+      }
+    }
+  ]
+}
