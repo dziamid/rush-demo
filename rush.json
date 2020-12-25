@@ -448,6 +448,12 @@
       "projectFolder": "app2",
       "reviewCategory": "production",
       "shouldPublish": false
+    },
+    {
+      "packageName": "tools",
+      "projectFolder": "tools",
+      "reviewCategory": "production",
+      "shouldPublish": false
     }
   ]
 }

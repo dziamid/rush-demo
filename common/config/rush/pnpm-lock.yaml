@@ -4,6 +4,7 @@ dependencies:
   '@rush-temp/app1': 'file:projects/app1.tgz_ts-node@9.1.1'
   '@rush-temp/app2': 'file:projects/app2.tgz_ts-node@9.1.1'
   '@rush-temp/demo-core': 'file:projects/demo-core.tgz'
+  '@rush-temp/tools': 'file:projects/tools.tgz'
   '@testing-library/jest-dom': 5.11.6
   '@testing-library/react': 11.2.2_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.0
@@ -13,6 +14,7 @@ dependencies:
   '@types/react-dom': 16.9.10
   colors: 1.4.0
   commitizen: 4.2.2
+  concurrently: 5.3.0
   coveralls: 3.1.0
   cross-env: 7.0.3
   cz-conventional-changelog: 3.3.0
@@ -5080,6 +5082,23 @@ packages:
       '0': node >= 0.8
     resolution:
       integrity: sha512-27HBghJxjiZtIk3Ycvn/4kbJk/1uZuJFfuPEns6LaEvpvG1f0hTea8lilrouyo9mVc2GWdcEZ8OLoGmSADlrCw==
+  /concurrently/5.3.0:
+    dependencies:
+      chalk: 2.4.2
+      date-fns: 2.16.1
+      lodash: 4.17.20
+      read-pkg: 4.0.1
+      rxjs: 6.6.3
+      spawn-command: 0.0.2-1
+      supports-color: 6.1.0
+      tree-kill: 1.2.2
+      yargs: 13.3.2
+    dev: false
+    engines:
+      node: '>=6.0.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-8MhqOB6PWlBfA2vJ8a0bSFKATOdWlHiQlk11IfmQBPaHVP8oP2gsh2MObE6UR3hqDHqvaIvLTyceNW6obVuFHQ==
   /configstore/3.1.5:
     dependencies:
       dot-prop: 4.2.1
@@ -5731,6 +5750,12 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-X5eWTSXO/BJmpdIKCRuKUgSCgAN0OwliVK3yPKbwIWU1Tdw5BRajxlzMidvh+gwko9AfQ9zIj52pzF91Q3YAvQ==
+  /date-fns/2.16.1:
+    dev: false
+    engines:
+      node: '>=0.11'
+    resolution:
+      integrity: sha512-sAJVKx/FqrLYHAQeN7VpJrPhagZc9R4ImZIWYRFZaaohR3KzmuK88touwsSwSVT8Qcbd4zoDsnGfX4GFB4imyQ==
   /dateformat/3.0.3:
     dev: false
     resolution:
@@ -12608,6 +12633,16 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-jvHAYjxqbbDcZxPEv6xGMysjaPg=
+  /read-pkg/4.0.1:
+    dependencies:
+      normalize-package-data: 2.5.0
+      parse-json: 4.0.0
+      pify: 3.0.0
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha1-ljYlN48+HE1IyFhytabsfV0JMjc=
   /read-pkg/5.2.0:
     dependencies:
       '@types/normalize-package-data': 2.4.0
@@ -13780,6 +13815,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
+  /spawn-command/0.0.2-1:
+    dev: false
+    resolution:
+      integrity: sha1-YvXpRmmBwbeW3Fkpk34RycaSG9A=
   /spawn-error-forwarder/1.0.0:
     dev: false
     resolution:
@@ -14583,6 +14622,11 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-iyctEtFvgXxin3Ur6jqqM9QdUqUKU8DShdVlRMDFwhLZ8+IGt3PnYPNZDSW45iDKCiUNJ0tGVidNpVDBG2ioKQ==
+  /tree-kill/1.2.2:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
   /trim-newlines/3.0.0:
     dev: false
     engines:
@@ -15841,6 +15885,7 @@ packages:
       '@types/react-dom': 16.9.10
       react: 17.0.1
       react-dom: 17.0.1_react@17.0.1
+      react-refresh: 0.8.3
       react-scripts: 4.0.1_ts-node@9.1.1+typescript@4.1.3
       typescript: 4.1.3
       web-vitals: 0.2.4
@@ -15850,7 +15895,7 @@ packages:
     peerDependencies:
       ts-node: '*'
     resolution:
-      integrity: sha512-eLtiQZa8AljCi6TBzydNKUjDJnRfwzMZBqD9KuqH0vavyBRp8Wh1NCrGR70kuna7dXBB/ESVzQRw6Tlu5PP8gw==
+      integrity: sha512-mP0I9gDpejgWRoRd3M/ZLACreEOLUKgZQytIJnGazamb0SEiLClV2TFCxFLOdQF74lHPlRZd9+bgItZBXhdlIg==
       tarball: 'file:projects/app2.tgz'
     version: 0.0.0
   'file:projects/demo-core.tgz':
@@ -15891,6 +15936,15 @@ packages:
       integrity: sha512-24i1wa7Yn6ontS3dbtj+QUg87KZoJAtmvjAWL5B6ss5mZwwVA2nqEqhvaY6mgRDW7fU277dgCCBGEwwYeXtMIQ==
       tarball: 'file:projects/demo-core.tgz'
     version: 0.0.0
+  'file:projects/tools.tgz':
+    dependencies:
+      concurrently: 5.3.0
+    dev: false
+    name: '@rush-temp/tools'
+    resolution:
+      integrity: sha512-pR/EEmb9HBrl82lbTcKLmQGkzMGDbtniGw2TK/Xih6LMs8Kvb3nA3Je3qo0GiAi7TDdaBZVZ8xWOH/LxX4gqMQ==
+      tarball: 'file:projects/tools.tgz'
+    version: 0.0.0
 registry: ''
 specifiers:
   '@commitlint/cli': ^11.0.0
@@ -15898,6 +15952,7 @@ specifiers:
   '@rush-temp/app1': 'file:./projects/app1.tgz'
   '@rush-temp/app2': 'file:./projects/app2.tgz'
   '@rush-temp/demo-core': 'file:./projects/demo-core.tgz'
+  '@rush-temp/tools': 'file:./projects/tools.tgz'
   '@testing-library/jest-dom': ^5.11.6
   '@testing-library/react': ^11.2.2
   '@testing-library/user-event': ^12.2.2
@@ -15907,6 +15962,7 @@ specifiers:
   '@types/react-dom': ^16.9.10
   colors: ^1.3.2
   commitizen: ^4.2.2
+  concurrently: ~5.3.0
   coveralls: ^3.0.2
   cross-env: ^7.0.2
   cz-conventional-changelog: ^3.3.0
