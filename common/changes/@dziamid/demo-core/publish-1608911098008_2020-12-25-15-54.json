@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@dziamid/demo-core",
+      "comment": "bugfix core",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@dziamid/demo-core",
+  "email": "dziamid@gmail.com"
+}
