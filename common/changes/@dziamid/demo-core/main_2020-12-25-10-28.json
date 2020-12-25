@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@dziamid/demo-core",
+      "comment": "Ported project files from lerna",
+      "type": "major"
+    }
+  ],
+  "packageName": "@dziamid/demo-core",
+  "email": "dziamid@gmail.com"
+}
