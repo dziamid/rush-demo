@@ -25,6 +25,7 @@ dependencies:
   prompt: 1.1.0
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
+  react-refresh: 0.8.3
   react-scripts: 4.0.1_ts-node@9.1.1+typescript@4.1.3
   replace-in-file: 6.1.0
   rimraf: 3.0.2
@@ -15816,6 +15817,7 @@ packages:
       '@types/react-dom': 16.9.10
       react: 17.0.1
       react-dom: 17.0.1_react@17.0.1
+      react-refresh: 0.8.3
       react-scripts: 4.0.1_ts-node@9.1.1+typescript@4.1.3
       typescript: 4.1.3
       web-vitals: 0.2.4
@@ -15825,7 +15827,7 @@ packages:
     peerDependencies:
       ts-node: '*'
     resolution:
-      integrity: sha512-tHG7QwsmfdkZDSnMOHdbudevtVyqTMwMJ53MfVLltsUxBTpOIwHpGuPZdmAD/0vjoDkZ/ou6oBog210R2+WtEA==
+      integrity: sha512-I9jd6IAVW9KRUbjZE1rCs2JKSB313kGoIJCzFZTK17uQsbEbzhOg5fh0uOtc8QMofTuBKw5hMmH/Mf3NNgO7xg==
       tarball: 'file:projects/app1.tgz'
     version: 0.0.0
   'file:projects/app2.tgz_ts-node@9.1.1':
@@ -15917,6 +15919,7 @@ specifiers:
   prompt: ^1.0.0
   react: ^17.0.1
   react-dom: ^17.0.1
+  react-refresh: 0.8.3
   react-scripts: 4.0.1
   replace-in-file: ^6.1.0
   rimraf: ^3.0.2

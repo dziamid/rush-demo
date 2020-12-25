@@ -11,6 +11,13 @@
    * "rush my-global-command --help".
    */
   "commands": [
+    {
+      "commandKind": "bulk",
+      "name": "start",
+      "summary": "Start all projects for local development",
+      "enableParallelism": true,
+      "ignoreDependencyOrder": true
+    }
     // {
     //   /**
     //    * (Required) Determines the type of custom command.

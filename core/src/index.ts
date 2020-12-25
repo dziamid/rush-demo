@@ -5,5 +5,5 @@ export class DummyClass {
 
 }
 
-export const foo = () => 125
-export const baz = () => 124
+export const foo = () => 2250
+export const baz = () => 2240

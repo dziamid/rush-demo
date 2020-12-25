@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {foo} from "@dziamid/twilio-video-core";
+import {foo} from "@dziamid/demo-core";
 
 function App() {
   return (
